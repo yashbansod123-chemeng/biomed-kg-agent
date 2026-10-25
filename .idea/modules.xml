@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/kg-agent.iml" filepath="$PROJECT_DIR$/.idea/kg-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../softsensor-uq-mlops/.idea/softsensor.iml" filepath="$PROJECT_DIR$/../softsensor-uq-mlops/.idea/softsensor.iml" />
     </modules>
   </component>
 </project>
