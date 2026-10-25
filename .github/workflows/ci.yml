@@ -37,7 +37,9 @@ jobs:
     if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
-    env: { ANTHROPIC_API_KEY: "${{ secrets.ANTHROPIC_API_KEY }}" }
+    env:
+      ANTHROPIC_API_KEY: "${{ secrets.ANTHROPIC_API_KEY }}"
+      KG_MODEL: "${{ vars.KG_MODEL }}"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
