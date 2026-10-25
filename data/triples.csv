@@ -1,0 +1,23 @@
+subject,subject_type,predicate,object,object_type
+Salbutamol,Drug,TARGETS,ADRB2,Gene
+Salbutamol,Drug,TREATS,Asthma,Disease
+Salbutamol,Drug,TREATS,COPD,Disease
+Fluticasone propionate,Drug,TARGETS,NR3C1,Gene
+Fluticasone propionate,Drug,TREATS,Asthma,Disease
+Umeclidinium,Drug,TARGETS,CHRM3,Gene
+Umeclidinium,Drug,TREATS,COPD,Disease
+Mepolizumab,Drug,TARGETS,IL5,Gene
+Mepolizumab,Drug,TREATS,Severe eosinophilic asthma,Disease
+Severe eosinophilic asthma,Disease,SUBTYPE_OF,Asthma,Disease
+IL5,Gene,ASSOCIATED_WITH,Severe eosinophilic asthma,Disease
+IL5,Gene,ASSOCIATED_WITH,EGPA,Disease
+ADRB2,Gene,ASSOCIATED_WITH,Asthma,Disease
+Dolutegravir,Drug,TARGETS,HIV-1 integrase,Protein
+Dolutegravir,Drug,TREATS,HIV-1 infection,Disease
+Belimumab,Drug,TARGETS,TNFSF13B,Gene
+Belimumab,Drug,TREATS,Systemic lupus erythematosus,Disease
+Dostarlimab,Drug,TARGETS,PDCD1,Gene
+Dostarlimab,Drug,TREATS,Endometrial cancer,Disease
+Niraparib,Drug,TARGETS,PARP1,Gene
+Niraparib,Drug,TARGETS,PARP2,Gene
+Niraparib,Drug,TREATS,Ovarian cancer,Disease

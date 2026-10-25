@@ -1,0 +1,12 @@
+[
+  {"question": "Which drugs in the graph treat asthma, including its subtypes?",
+   "expected_tools": ["drugs_for_disease"], "must_contain": ["Salbutamol", "Fluticasone", "Mepolizumab"]},
+  {"question": "What does niraparib target?",
+   "expected_tools": ["targets_of_drug"], "must_contain": ["PARP1", "PARP2"]},
+  {"question": "Suggest a repurposing hypothesis for mepolizumab.",
+   "expected_tools": ["repurposing_candidates"], "must_contain": ["EGPA"]},
+  {"question": "How is mepolizumab connected to EGPA?",
+   "expected_tools": ["connection_path"], "must_contain": ["IL5"]},
+  {"question": "What does aspirin target?",
+   "expected_tools": ["targets_of_drug"], "must_contain": [], "must_not_contain": ["PTGS", "cyclooxygenase", "COX"]}
+]
